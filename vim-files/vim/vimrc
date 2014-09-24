@@ -179,6 +179,8 @@ if has("gui_running")
     set guioptions-=m
     colo badwolf
     set listchars=tab:▸\ ,eol:¬         " Invisibles using the Textmate style
+    "set guifont=Monospace:h12
+    set guifont=Bitstream\ Vera\ Sans\ Mono\ 12
 else
     set t_Co=256
     colorschem badwolf
@@ -229,3 +231,7 @@ imap <leader>l <ESC>:TagbarToggle<cr>i
 
 " =========== END Plugin Settings =========="
 "
+set softtabstop=2
+set tabstop=2
+set shiftwidth=2
+set expandtab
