@@ -17,6 +17,9 @@ set shiftwidth=2
 set softtabstop=2
 set expandtab
 
+
+set guifont=Monospace:h20
+
 " More Common Settings.
 set encoding=utf-8
 set scrolloff=3
