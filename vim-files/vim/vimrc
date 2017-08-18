@@ -18,7 +18,12 @@ set softtabstop=2
 set expandtab
 
 
-set guifont=Monospace:h20
+" set guifont=Monospace:h20
+if has("gui_running")
+  set macligatures
+endif
+set guifont=Fira\ Code:h20
+
 
 " More Common Settings.
 set encoding=utf-8
